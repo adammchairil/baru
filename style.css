@@ -1,0 +1,376 @@
+/* ALASNYA */
+
+.body-content {
+    background-color: blanchedalmond;
+    justify-content: center
+}
+.div-index {
+    background-color: aliceblue;
+    justify-content: center;
+    width: 1010px; 
+    display: flex;
+    align-items: center;
+    height: 950px; 
+    position: relative; 
+    border: 2px solid black;
+}
+
+
+/* RUANGANNYA */
+
+.div-content-RT {
+    width: 800px;
+    height: 650px; 
+    margin-bottom: 30px;
+    margin-right: 50px;
+    background: lightblue; 
+    position: absolute; 
+    top: 0; 
+    left: 0px;
+}
+
+.div-content-KT {
+    width: 800px;
+    height: 650px;
+    margin-left: 350px;
+    margin-bottom: 30px; 
+    background: lightgreen; 
+    position: absolute; 
+    top: 0; 
+    left: 510px;
+}
+.div-content-RK {
+    width: 800px;
+    height: 650px;
+    margin-top: 230px; 
+    background: lightgreen; 
+    position: absolute; 
+    top: 0px  ; 
+    left: 0px;
+    top: 500px;
+    
+}
+.div-content-RM {
+    width: 800px;
+    height: 650px; 
+    margin-top: 230px;
+    margin-left: 350px;
+    background: lightblue; 
+    position: absolute; 
+    top: 500px; 
+    left: 510px;
+}
+
+
+/* PERLAMPUAN */
+
+/* LAMPU RUANG TAMU */
+.LampuRT1, .LampuRT11 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 50px;
+    z-index: 10;
+    top: 30px;
+
+} 
+.LampuRT2, .LampuRT12 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 180px;
+    z-index: 10;
+    top: 30px; 
+}
+.LampuRT3, .LampuRT13 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 310px;
+    z-index: 10;
+    top: 30px;
+}
+.LampuRT4, .LampuRT14 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 440px;
+    z-index: 10;
+    top: 30px;
+}
+
+/* LAMPU KAMAR TIDUR */
+.LampuKT1, .LampuKT15 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 1100px;
+    z-index: 10;
+    top: 30px;
+}
+.LampuKT2, .LampuKT16 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 1300px;
+    z-index: 10;
+    top: 30px;
+}
+
+/* LAMPU RUANG KELUARGA */
+.LampuRK1, .LampuRK17 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 50px;
+    z-index: 10;
+    top: 780px;
+}
+.LampuRK2, .LampuRK18 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 200px;
+    z-index: 10;
+    top: 780px;
+}
+.LampuRK3, .LampuRK19 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 350px;
+    z-index: 10;
+    top: 780px;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
+
+/* LAMPU RUANG MAKAN */
+.LampuRM1, .LampuRM20 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 1230px;
+    z-index: 10;
+    top: 780px;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
+
+/* PERTOGGLE AN */
+
+.toggle-1 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 65px;
+    margin-top: 300px;
+}
+.toggle-2 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 195px;
+    margin-top: 300px;
+}
+.toggle-3 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 325px;
+    margin-top: 300px;
+}
+.toggle-4 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 455px;
+    margin-top: 300px;
+}
+.toggle-5 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 1120px;
+    margin-top: 300px;
+}
+.toggle-6 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 1315px;
+    margin-top: 300px;
+}
+.toggle-7 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 65px;
+    margin-top: 1050px;
+}
+.toggle-8 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 215px;
+    margin-top: 1050px;
+}
+.toggle-9 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 365px;
+    margin-top: 1050px;
+}
+.toggle-10 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 1245px;
+    margin-top: 1050px;
+}
+
+
+/* TOGGLE UTAMA */
+.toggle-index1 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 250px;
+    margin-top: 500px;
+}
+.toggle-index2 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 1210px;
+    margin-top: 500px;
+}
+.toggle-index3 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 250px;
+    margin-top: 1260px;
+}
+.toggle-index4 {
+    position: absolute;
+    z-index: 10;
+    margin-left: 1210px;
+    margin-top: 1260px;
+}
+
+/* yahaha */
+.LampuRT11 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 9;
+    top: 30px;
+}
+.LampuRT12 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    z-index: 9;
+    top: 30px; 
+}
+.LampuRT13 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 310px;
+    z-index: 9;
+    top: 30px;
+}
+.LampuRT14 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 440px;
+    z-index: 9;
+    top: 30px;
+}
+
+.LampuKT15 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 1100px;
+    z-index: 9;
+    top: 30px;
+}
+.LampuKT16 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 1300px;
+    z-index: 9;
+    top: 30px; 
+}
+
+.LampuRK17 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 9;
+    top: 780px;
+}
+.LampuRK18 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index: 9;
+    top: 780px;
+}
+.LampuRK19 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 350px;
+    z-index: 9;
+    top: 780px;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
+.LampuRM20 {
+    width: 7%;
+    height: 27%;
+    position: absolute;
+    top: 0;
+    left: 1230px;
+    z-index: 9;
+    top: 780px;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
